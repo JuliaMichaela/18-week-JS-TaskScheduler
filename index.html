@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div class="box_enter_task">
         <h2>Добавить задачу</h2>
-        <input type="text" placeholder="Задача">
-        <button>Добавить</button>
+        <input id="input" type="text" placeholder="Задача">
+        <button id="btn_add">Добавить</button>
     </div>
 
-    <div>
+    <div class="box_todo_list">
         <h2>Список задач</h2>
+        <div id="tasks"></div>
+        <button id="btn_clear">Очистить список</button>
     </div>
 
 
