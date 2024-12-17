@@ -11,6 +11,12 @@ function createTask () {
     const textTask = document.createElement('p');
     textTask.textContent = valueInput;
     tasks.appendChild(textTask);
-    valueInput = ''
+
+    valueInput = '';
 }
 btnAdd.addEventListener('click', createTask);
+
+function clearList (){
+    tasks.textContent= '';
+}
+btnClear.addEventListener('click', clearList );
