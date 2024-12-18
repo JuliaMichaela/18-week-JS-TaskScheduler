@@ -4,6 +4,12 @@ const tasks = document.querySelector('#tasks');
 const btnClear = document.querySelector('#btn_clear');
 
 
+document.addEventListener("DOMContentLoaded", function (event) {
+    let arrTasks = localStorage.getItem('arrTasks');
+    if (arrTasks.length != 0) {
+        tasks.value = arrTasks;
+    }
+})
 
 function createTask () {
     const valueInput = input.value;
