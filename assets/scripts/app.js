@@ -27,7 +27,6 @@
 // }
 // btnClear.addEventListener('click', clearList );
 
-
 class ToDolist {
     constructor () {
         this.list = localStorage.getItem("taskArr")? JSON.parse(localStorage.getItem("taskArr")): [];
