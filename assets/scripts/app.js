@@ -89,6 +89,9 @@ form.addEventListener ("submit", (event) => {
         task.value = "";
 });
 
+
+
+
 function render () {
     if (list.length === 0) {
         container.innerHTML = "<h2>No todos</h2>";
