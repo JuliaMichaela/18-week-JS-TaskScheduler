@@ -92,6 +92,9 @@ form.addEventListener ("submit", (event) => {
 
 
 
+
+
+
 function render () {
     if (list.length === 0) {
         container.innerHTML = "<h2>No todos</h2>";
